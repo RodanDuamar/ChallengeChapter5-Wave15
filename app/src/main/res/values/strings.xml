@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">ChallengeChapter5-Wave15</string>
+    <string name="pilih_lawanmu">Pilih lawanmu</string>
+    <string name="jamal_vs_pemain">Jamal vs Pemain</string>
+    <string name="jamal_vs_cpu">Jamal vs CPU</string>
+    <string name="cpu">CPU</string>
+    <string name="jamal">Jamal</string>
+    <string name="versus">VS</string>
 </resources>
