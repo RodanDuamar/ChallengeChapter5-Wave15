@@ -14,14 +14,7 @@
         android:theme="@style/Theme.ChallengeChapter5Wave15"
         tools:targetApi="31">
         <activity
-            android:name=".MenuPageActivity"
-            android:label="MenuPage"
-            android:exported="false" />
-        <activity
-            android:name=".LandingPageActivity"
-            android:exported="false" />
-        <activity
-            android:name=".PlayActivity"
+            android:name=".IntroScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,6 +22,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MenuPageActivity"
+            android:label="Menu"
+            android:exported="false"/>
+        <activity
+            android:name=".LandingPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlayActivity"
+            android:exported="false"/>
     </application>
 
 </manifest>
