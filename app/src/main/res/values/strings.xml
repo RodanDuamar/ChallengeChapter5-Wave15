@@ -6,4 +6,12 @@
     <string name="cpu">CPU</string>
     <string name="jamal">Jamal</string>
     <string name="versus">VS</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tuliskan_namamu_di_bawah">Tuliskan namamu di bawah</string>
+    <string name="nama">Nama</string>
+    <string name="text_player_vs_player">Bermain suit melawan sesama pemain.</string>
+    <string name="text_player_vs_computer">Bermain suit melawan komputer</string>
 </resources>

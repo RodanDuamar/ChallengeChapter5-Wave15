@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PlayActivity">
+    tools:context=".ui.play.PlayActivity">
 
     <ImageView
         android:id="@+id/iv_RPS"
@@ -37,7 +37,7 @@
             android:fontFamily="@font/comic_sans_ms_bold"
             android:textStyle="bold"
             android:textSize="20sp"
-            android:text="@string/jamal"/>
+            tools:text="@string/jamal"/>
         <ImageView
             android:id="@+id/iv_rock_left_player"
             android:layout_width="match_parent"
@@ -80,7 +80,7 @@
             android:fontFamily="@font/comic_sans_ms_bold"
             android:textStyle="bold"
             android:textSize="20sp"
-            android:text="@string/cpu"/>
+            tools:text="@string/cpu"/>
         <ImageView
             android:id="@+id/iv_rock_right_player"
             android:layout_width="match_parent"
