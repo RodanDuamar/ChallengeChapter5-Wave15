@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.rodan.challengechapter5_wave15">
 
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -30,7 +31,7 @@
             android:name=".ui.landing.LandingPageActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.play.PlayActivity"
+            android:name=".playgame.PlayActivity"
             android:exported="false"/>
     </application>
 

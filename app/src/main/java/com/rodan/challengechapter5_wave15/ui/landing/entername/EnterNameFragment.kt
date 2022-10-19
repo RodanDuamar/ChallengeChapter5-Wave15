@@ -1,6 +1,5 @@
 package com.rodan.challengechapter5_wave15.ui.landing.entername
 
-
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -9,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.Toast
 import com.rodan.challengechapter5_wave15.databinding.FragmentEnterNameBinding
 import com.rodan.challengechapter5_wave15.ui.landing.OnFinishNavigate
+import com.rodan.challengechapter5_wave15.ui.menu.MenuPageActivity
 
 
 class EnterNameFragment : Fragment(), OnFinishNavigate {
@@ -34,10 +34,6 @@ class EnterNameFragment : Fragment(), OnFinishNavigate {
     }
 
     fun navigateToMenuPage(name:String){
-
-
-        Toast.makeText(requireContext(), "Name: $name", Toast.LENGTH_SHORT).show()
+        MenuPageActivity.startActivity(requireContext(),name)
     }
-
-
 }
