@@ -1,3 +1,29 @@
 <resources>
     <string name="app_name">ChallengeChapter5-Wave15</string>
+    <string name="pilih_lawanmu">Pilih lawanmu</string>
+    <string name="jamal_vs_pemain">Jamal vs Pemain</string>
+    <string name="jamal_vs_cpu">Jamal vs CPU</string>
+    <string name="cpu">CPU</string>
+    <string name="jamal">Jamal</string>
+    <string name="versus">VS</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tuliskan_namamu_di_bawah">Tuliskan namamu di bawah</string>
+    <string name="nama">Nama</string>
+    <string name="text_player_vs_player">Bermain suit melawan sesama pemain.</string>
+    <string name="text_player_vs_computer">Bermain suit melawan komputer</string>
+    <string name="input_player_vs_player">%s vs Pemain</string>
+    <string name="input_player_vs_computer">%s vs CPU</string>
+    <string name="player_name">%s</string>
+    <string name="text_title">Hasil Permainan</string>
+    <string name="text_play_again">Main Lagi</string>
+    <string name="text_back_to_menu">Kembali Ke Menu</string>
+    <string name="draw">SERI!</string>
+    <string name="player_2_win">Pemain 2 MENANG</string>
+    <string name="cpu_win">CPU MENANG</string>
+    <string name="player_1_win">Pemain 1 MENANG</string>
+    <string name="player_2">Pemain 2</string>
+    <string name="text_empty">Kosong</string>
 </resources>
